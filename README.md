@@ -1,6 +1,6 @@
 # Lita-capstoneSales-project
 
-# 📊 Sales Performance Analysis for a Retail Store
+# 📊 Capstone Sales Performance Analysis
 
 ## Project Overview
 This project focuses on analyzing the sales performance of a retail store, aiming to reveal valuable insights and trends. By examining the sales data, we look into top-selling products, regional sales performance, and monthly sales patterns. The end result is an interactive Power BI dashboard that highlights these findings for better decision-making.
