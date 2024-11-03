@@ -43,7 +43,7 @@ Create an interactive Power BI dashboard with the following features:
 - **Power BI:** Building an interactive dashboard for visual analysis.
 
 ## Getting Started
-1. **Clone the repository:** `git clone https://github.com/your-username/sales-performance-analysis.git`
+1. **Clone the repository:** `git clone https://github.com/Joycee3822/Lita-Capstone-project`
 2. **Dataset Preparation:** Load the dataset into your SQL Server for analysis.
 3. **Excel Analysis:** Follow Excel steps for initial data exploration.
 4. **SQL Queries:** Use SQL scripts to retrieve insights.
