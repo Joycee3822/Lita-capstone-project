@@ -46,8 +46,32 @@ Create an interactive Power BI dashboard with the following features:
 1. **Clone the repository:** `git clone https://github.com/Joycee3822/Lita-Capstone-project`
 2. **Dataset Preparation:** Load the dataset into your SQL Server for analysis.
 3. **Excel Analysis:** Follow Excel steps for initial data exploration.
-4. **SQL Queries:** Use SQL scripts to retrieve insights.
-5. **Power BI Dashboard:** Use Power BI to visualize results and create the dashboard.
+4. ## Data Source
+The dataset for this project was provided as part of a class assignment and contains simulated retail sales data for analysis purposes.
+________
+## Dataset
+- The dataset used for this project contains the following fields:
+- OrderID: Unique identifier for each order
+- CustomerID: Identifier for each customer
+- Product: Name of the product sold
+- Region: Geographical region where the sale occurred
+- OrderDate: Date the order was placed
+- Quantity: Number of units sold
+- UnitPrice: Price per unit of the product
+- Revenue: Total revenue from each order (calculated as Quantity * UnitPrice)
+- #### Remove Duplicates:
+Highlighted all data (Ctrl + A) and removed duplicates via Data tab > Remove Duplicates option. This step removed 40,079 duplicate values, leaving 9,921 unique records. 
+
+#### Reason:
+Removing duplicates ensures data accuracy by eliminating repeated entries that could skew sales insights and lead to incorrect analysis.
+
+#### Calculate Revenue:
+Added a new column to calculate revenue using the formula Quantity * Unit Price for each order. 
+
+#### Reason:
+Calculating revenue allows us to analyze total earnings per product, region, and period, which is essential for evaluating sales performance and profitability.
+5. **SQL Queries:** Use SQL scripts to retrieve insights.
+6. **Power BI Dashboard:** Use Power BI to visualize results and create the dashboard.
 
 ## Project Files
 - `data/`: Folder with the dataset.
