@@ -82,4 +82,4 @@ Calculating revenue allows us to analyze total earnings per product, region, and
 
 
 ## Acknowledgements
-Thanks to contributors and reviewers for insights and dashboard design su
+Thanks to LITA and incubator Hub for the training session and for the data set given for project
